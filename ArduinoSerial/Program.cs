@@ -6,7 +6,7 @@ namespace ArduinoSerial
     class Program
     {
         private static SerialPort _arduinoBoard;
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             _arduinoBoard = new SerialPort();
             OpenArduinoConnection();
